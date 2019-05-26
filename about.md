@@ -1,27 +1,54 @@
 ---
 layout: page
-title: Jekyll Theme - About - Massively
-description: When building a website it's helpful to see what the focus of your site is. This page is an example of how to show a website's focus.
+title: My Profile
+description: Engineer / Board Game Designer
 sitemap:
     priority: 0.7
-    lastmod: 2017-11-02
+    lastmod: 2019-05-27
     changefreq: weekly
 ---
-## About our Site
+## About me
 
-<span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
+都内のSIerでエンジニアとして働き始めました。
 
-Making steady content and conveying it well takes a great deal of research and, hence, time and exertion. Building a profound established comprehension of your target customer needs is critical as your principle objective ought to be to fulfill their requirements as awesome content. You should need to enhance their lives. Having significant content like this may not be simple by any methods. Be that as it may, in any case, it's a fundamental apparatus in the event that you expect to grow a fruitful and supportable business in the present web focused world.
+[HIchain Project](https://hichain.jp)というサークルで頭を使うボードゲームを制作しています。代表兼ゲームデザイナー・アプリ開発者。
 
-Receiving the benefits of content is a certain something. Be that as it may, it's so substantially less demanding once you begin conveying all the more successfully. The profitable content thought isn't just about bragging your item's capacities and general worth or your organization's achievements. You should concentrate less on advertising how awesome your item is and rather concentrate on indicating how valuable it is. This is a client focused approach as it concentrates on their issues and your answer for them. Making yourself fundamental is critical.
+明治大学総合数理学部先端メディアサイエンス学科 3期卒  
+総合コンテンツ制作サークル 3期卒
 
-### Content is Imortant
-<div class="box">
-  <p>
-  In saying that, a one-measure fits-all approach won't do the trick with regards to content promoting. Rather, an emphasis on making remarkable, high caliber and totally genuine content that is engaging, helpful and fascinating for customers will get you the crown. From content, video and symbolism to infographics, studies, online courses and podcasts, whatever your favored content medium is, guarantee it is shareable and pertinent to your industry.
-  </p>
-</div>
+### ゲームデザイン
 
-<span class="image left"><img src="{{ "/images/pic05.jpg" | absolute_url }}" alt="" /></span>
+<span class="image left shadow"><img src="{{ "/images/hichain-plus_tp.png" | absolute_url }}" alt="HICHAIN PLUS" /></span>
 
-On social media, we may share our own thoughts and advance our image notwithstanding spreading musings for different associations and affiliations. With such a critical number of associations with people and relationship on social media, our experience can be over-burden with a considerable measure of information.
+大学1年の時に「文字を使ったパズルを考える」というゼミ課題として後の「[HICHAIN](https://hichain.jp/hichain/)」を考案し、それを製品化するため[HIchain Project](https://hichain.jp)というサークルを立ち上げました。
+
+現在まで4つのボードゲームのルールやパッケージをデザインしました。これらのゲームはゲームマーケットやコミックマーケットといった同人イベントで頒布しております。
+
+<ul class="actions">
+  <li><a href="{{ "/boardgames/" | absolute_url }}" class="button special">ゲームをみる</a></li>
+</ul>
+
+### プログラミング
+
+<span class="image right shadow"><img src="{{ "/images/hichain-prototype.gif" | absolute_url }}" alt="HIchain Prototype" /></span>
+
+プログラミングは大学に入学してから始めました。  
+主に自分で考案したゲームや、何かを自動化、効率化するツールを制作しています。
+
+私が考案したHICHAINの[ネイティブアプリ](https://github.com/hichain/HIchain-Prototype)も開発しています。
+
+大学3年では所属するサークルで、Slackと連携する名簿管理システムや教室申請をスムーズに行う支援システムを[Google Apps Script](https://developers.google.com/apps-script/)で制作しました。
+
+また[このサイト](/post/my-portfolio)や[HIchain Project](https://hichain.jp)、[総合コンテンツ制作サークル](https://sokon.jp) (2017年次)のWebサイトを[Jekyll](https://jekyllrb-ja.github.io/)というフレームワークを用いて制作しました。
+
+<ul class="actions">
+  <li><a href="{{ "/programs/" | absolute_url }}" class="button special">プログラムをみる</a></li>
+</ul>
+
+### 講座
+
+学生時所属していたサークルなどでGitやリーダブルコードなど様々な講座を開きました。
+
+<ul class="actions">
+  <li><a href="{{ "/slides/" | absolute_url }}" class="button special">スライドをみる</a></li>
+</ul>

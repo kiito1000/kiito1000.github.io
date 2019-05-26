@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Thank you for your correspondence
+title: ご連絡ありがとうございます
 ---
-## Thank you for your correspondence
-We are delighted to hear from you. You may expect to receive an answer soon.
+## ご連絡ありがとうございます
 
-Have a nice day!

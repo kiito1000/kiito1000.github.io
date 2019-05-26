@@ -1,8 +1,8 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
-locale:             en_US
+title:              KOKI ITO
+bio:                'Engineer / Board Game Designer'
+description:        "都内でエンジニアをしながら趣味でボードゲームも作っています。"
+locale:             ja_JP
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
@@ -11,15 +11,18 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
+twitter:            kiito1000
 facebook:           default
 instagram:          default
-github:             default
+github:             kiito1000
+blog:               http://tkw.hateblo.jp
+scrapbox:           https://scrapbox.io/tokiwa/
+qiita:              kiito1000
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+location:           
+phone:              
+email:              dkmt402.nt@live.jp
 
 # Other
 background_image:   /images/bg.jpg
@@ -31,12 +34,12 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: "/post/:title/"
     layout: post
     author:
 
 # Jekyll
-permalink:          /blog/:title/
+permalink:          /post/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -53,13 +56,14 @@ sass:
 # Gems
 gems:
   - jekyll-mentions
-  - jekyll-sitemap
+  - jekyll-sitemap 
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-redirect-from
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/post/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "slashchain"
+date:   2019-05-26
+excerpt: 四倍速で打つ新しい五目並べ
+image: /images/slashchain.png
+tags: [Work, Boardgame, slashchain]
+link: https://hichain.jp/slashchain
+pin: true
+---
+

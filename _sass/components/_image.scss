@@ -20,6 +20,11 @@
 		&.left,
 		&.right {
 			max-width: 40%;
+			
+			@include breakpoint(small) {
+				max-width: 100%;
+				width: 100%;
+			}
 
 			img {
 				width: 100%;
@@ -63,6 +68,12 @@
 
 			img {
 				width: 100%;
+			}
+		}
+
+		&.shadow {
+			img {
+				filter: drop-shadow(4px 4px 4px rgba(58, 58, 58, 0.4));
 			}
 		}
 

@@ -29,7 +29,7 @@
 		}
 
 		> .post {
-			@include padding((_size(padding) * 4), (_size(padding) * 4));
+			@include padding((_size(padding) * 3), (_size(padding) * 4));
 
 			header {
 				&.major {
@@ -38,7 +38,7 @@
 					}
 
 					> h1, h2 {
-						font-size: 4rem;
+						font-size: 3rem;
 						line-height: 1.1;
 						margin: 0 0 _size(element-margin) 0;
 					}
