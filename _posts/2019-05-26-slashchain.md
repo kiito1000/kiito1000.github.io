@@ -9,3 +9,7 @@ link: https://hichain.jp/slashchain
 pin: true
 ---
 
+二人用のシンプルなアブストラクトゲームです。  
+ゲームデザインとパッケージデザイン、説明書のデザインを担当しました。
+
+[ゲームマーケット2019春](https://hichain.jp/gm2019ts/)で頒布しました。

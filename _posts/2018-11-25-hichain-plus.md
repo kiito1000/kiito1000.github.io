@@ -9,3 +9,7 @@ link: https://hichain.jp/hichain-plus
 pin: false
 ---
 
+アルファベットのカードを使った二人用のボードゲームです。
+ゲームデザインと説明書のデザインを担当しました。
+
+[ゲームマーケット2018秋](https://hichain.jp/gm2018ta/)で頒布しました。

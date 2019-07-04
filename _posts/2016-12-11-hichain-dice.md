@@ -8,3 +8,7 @@ tags: [Work, Boardgame, HICHAIN]
 link: https://hichain.jp/hichain-dice
 ---
 
+アルファベットのカードを使った二人用のボードゲームです。
+ゲームデザインと説明書のデザインを担当しました。
+
+[ゲームマーケット2016秋](https://hichain.jp/gm2016ta/)で頒布しました。
