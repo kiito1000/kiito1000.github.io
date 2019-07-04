@@ -29,13 +29,20 @@
 				<!-- Main -->
 				<div id="main">
           <section class="post">
-    				<header class="major">
-      				<span class="date">{{ page.date | date: "%Y/ %m / %d" }}</span>
-      				<h1><a href="{{page.link}}" target="_blank">{{page.title}}</a></h1>
-      				<p>{{page.excerpt}}</p>
-      			</header>
-      			<div class="image main"><img src="{{page.image}}" alt=""></div>
-      			<p>{{content}}</p>
+				<header class="major">
+					<span class="date">{{ page.date | date: "%Y/ %m / %d" }}</span>
+					<h1><a href="{{page.link}}" target="_blank">{{page.title}}</a></h1>
+					<p>{{page.excerpt}}</p>
+				</header>
+      			<div class="image main">
+					  <img src="{{page.image}}" alt="">
+				</div>
+				<p>{{content}}</p>
+				{% if page.link %}
+				<ul class="actions">
+					<li><a href="{{page.link}}" class="button special">詳しくみる</a></li>
+				</ul>
+				{% endif %}
       		</section>
 
 					<!-- Footer -->
