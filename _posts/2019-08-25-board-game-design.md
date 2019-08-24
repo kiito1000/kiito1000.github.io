@@ -3,6 +3,7 @@ layout: post
 title:  "ボードゲームの作り方とゲームデザイン"
 date:   2019-08-25
 excerpt: "面白いボードゲームとは？"
+link: /assets/works/2019-08-25-board-game-design.pdf
 image: /images/board-game-design.png
 tags: [Work, Slide]
 ---
