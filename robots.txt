@@ -1,2 +1,2 @@
-User-agent : *
-Disallow : /assets/works/
+User-agent: *
+Disallow: /assets/works/
