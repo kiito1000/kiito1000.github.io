@@ -4,12 +4,11 @@ title: My Profile
 description: Engineer / Board Game Designer
 sitemap:
     priority: 0.7
-    lastmod: 2019-05-27
-    changefreq: weekly
+    lastmod: 2020-08-19
 ---
 ## About me
 
-都内のSIerでエンジニアとして働き始めました。
+都内でiOS/Androidアプリのエンジニアをしています。
 
 [HIchain Project](https://hichain.jp)というサークルで頭を使うボードゲームを制作しています。代表兼ゲームデザイナー・アプリ開発者。
 
@@ -33,16 +32,14 @@ sitemap:
 <span class="image right shadow"><img src="{{ "/images/hichain-prototype.gif" | absolute_url }}" alt="HIchain Prototype" /></span>
 
 プログラミングは大学に入学してから始めました。  
-主に自分で考案したゲームや、何かを自動化、効率化するツールを制作しています。
+趣味で自分で考案したゲームや、何かを自動化、効率化するツールを制作しています。
 
 私が考案したHICHAINの[ネイティブアプリ](https://github.com/hichain/HIchain-Prototype)も開発しています。
 
-大学3年では所属するサークルで、Slackと連携する名簿管理システムや教室申請をスムーズに行う支援システムを[Google Apps Script](https://developers.google.com/apps-script/)で制作しました。
-
-また[このサイト](/post/my-portfolio)や[HIchain Project](https://hichain.jp)、[総合コンテンツ制作サークル](https://sokon.jp) (2017年次)のWebサイトを[Jekyll](https://jekyllrb-ja.github.io/)というフレームワークを用いて制作しました。
+現在は仕事でiOSやAndroidのアプリを開発しています。
 
 <ul class="actions">
-  <li><a href="{{ "/programs/" | absolute_url }}" class="button special">プログラムをみる</a></li>
+  <li><a href="{{ "/apps/" | absolute_url }}" class="button special">プログラムをみる</a></li>
 </ul>
 
 ### 講座
