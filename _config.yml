@@ -1,6 +1,6 @@
 # Site
 title:              KOKI ITO
-bio:                'Engineer / Board Game Designer'
+bio:                'Application Engineer / Board Game Designer'
 description:        "都内でエンジニアをしながら趣味でボードゲームも作っています。"
 locale:             ja_JP
 baseurl: "" # the subpath of your site, e.g. /blog
