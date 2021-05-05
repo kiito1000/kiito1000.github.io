@@ -1,13 +1,25 @@
 {
-    "name": "",
-    "icons": [
-        {
-            "src": "/assets/icon/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+  "short_name": "Koki Ito",
+  "name": "Koki Ito",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "kiito_192x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "kiito_512x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1A222C",
+  "background_color": "#ffffff"
 }
