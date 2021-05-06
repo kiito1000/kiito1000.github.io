@@ -1,19 +1,19 @@
 ---
 layout: page
 title: My Profile
-description: Engineer / Board Game Designer
 sitemap:
     priority: 0.7
-    lastmod: 2020-08-19
+    lastmod: 2021-05-06
 ---
 ## About me
 
-都内でiOS/Androidアプリのエンジニアをしています。
+都内でエンジニアとして iOS / Android / Webアプリの開発をしています。
 
-[HIchain Project](https://hichain.jp)というサークルで頭を使うボードゲームを制作しています。代表兼ゲームデザイナー・アプリ開発者。
+また[HIchain Project](https://hichain.jp)というサークルで頭を使うボードゲームを制作しています。  
+(代表・ゲームデザイナー・アプリ開発者)
 
-明治大学総合数理学部先端メディアサイエンス学科 3期卒  
-総合コンテンツ制作サークル 3期卒
+- 明治大学 総合数理学部 先端メディアサイエンス学科 3期卒  
+- 総合コンテンツ制作サークル 3期卒
 
 ### ゲームデザイン
 
@@ -31,12 +31,12 @@ sitemap:
 
 <span class="image right shadow"><img src="{{ "/images/hichain-prototype.gif" | absolute_url }}" alt="HIchain Prototype" /></span>
 
-プログラミングは大学に入学してから始めました。  
-趣味で自分で考案したゲームや、何かを自動化、効率化するツールを制作しています。
+プログラミングでボードゲームを作ったり何かを効率化することが好きです。
 
-私が考案したHICHAINの[ネイティブアプリ](https://github.com/hichain/HIchain-Prototype)も開発しています。
+- [HICHAIN Prototype](https://github.com/hichain/HIchain-Prototype)
+- [HICHAIN Apps](https://apps.hichain.jp)
 
-現在は仕事でiOSやAndroidのアプリを開発しています。
+仕事ではiOSやAndroid、Webアプリを開発しています。
 
 <ul class="actions">
   <li><a href="{{ "/apps/" | absolute_url }}" class="button special">プログラムをみる</a></li>
