@@ -1,7 +1,5 @@
 ---
 layout: null
-title: Koki Ito
-description: "Engineer / Board Game Designer"
 sitemap:
 priority: 1.0
 lastmod: 2019-4-1
@@ -27,8 +25,8 @@ changefreq: weekly
 
 		<!-- Intro -->
 		<div id="intro">
-			<h1>{{site.title}}</h1>
-			<h2>{{site.bio}}</h2>
+			<h1>{{ site.title | upcase }}</h1>
+			<h2>{{ site.bio }}</h2>
 			<ul class="actions">
 				<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 			</ul>
