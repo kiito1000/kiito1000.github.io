@@ -6,7 +6,6 @@ excerpt: "総合コンテンツ制作サークルのWebサイト (2018年次)"
 image: /images/sokon-website.png
 tags: [Work, App, Website]
 link: https://github.com/sokon-meiji/sokon-meiji.github.io
-pin: true
 ---
 
 大学のときに所属していた[総合コンテンツ制作サークル](https://sokon.jp)のWebサイトです。
