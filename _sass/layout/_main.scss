@@ -16,15 +16,12 @@
 
 		> * {
 			@include padding((_size(padding) * 2), (_size(padding) * 2));
-			border-top: solid 2px _palette(border);
 			margin: 0;
-
-			&:first-child {
-				border-top: 0;
-			}
 		}
 
 		> footer {
+			background-color: _palette(border);
+			margin-top: -2px;
 			text-align: center;
 		}
 
@@ -86,21 +83,13 @@
 
 			> article {
 				border-color: _palette(border);
-				border-left-width: 2px;
+				border-right-width: 2px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-bottom-width: 2px;
 				text-align: center;
 
 				> :last-child {
 					margin-bottom: 0;
-				}
-
-				&:nth-child(2n - 1) {
-					border-left-width: 0;
-				}
-
-				&:nth-child(-n + 2) {
-					border-top-width: 0;
 				}
 			}
 

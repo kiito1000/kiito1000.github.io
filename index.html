@@ -47,27 +47,23 @@ changefreq: weekly
 			<!-- Posts -->
 			<section class="posts">
 				{% for post in site.posts %}
-				{% if post.pin != true %}
-				{% continue %}
-				{% endif %}
-				{% assign mod2 = forloop.index | modulo: 2 %}
-				<article>
-					<header>
-						<span class="date">{{ post.date | date: "%Y/ %m / %d" }}</span>
-						<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-					</header>
-					<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}"
-							alt="" /></a>
-					<p>{{ post.excerpt }}</p>
-					<ul class="actions">
-						<li><a href="{{ post.url | absolute_url }}" class="button">Learn More</a></li>
-					</ul>
-				</article>
+					{% if post.pin != true %}
+						{% continue %}
+					{% endif %}
+					{% assign mod2 = forloop.index | modulo: 2 %}
+					<article>
+						<header>
+							<span class="date">{{ post.date | date: "%Y/ %m / %d" }}</span>
+							<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+						</header>
+						<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}"
+								alt="" /></a>
+						<p>{{ post.excerpt }}</p>
+						<ul class="actions">
+							<li><a href="{{ post.url | absolute_url }}" class="button">Learn More</a></li>
+						</ul>
+					</article>
 				{% endfor %}
-				{% if mod2 == 1 %}
-				<article>
-				</article>
-				{% endif %}
 			</section>
 
 			<!-- Footer -->
