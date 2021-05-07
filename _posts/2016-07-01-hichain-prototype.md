@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HIchain Prototype"
+title:  "HICHAIN Prototype"
 date:   2016-07-01
 excerpt: "ボードゲーム「HICHAIN」のプロトタイプアプリ"
 image: "/images/hichain-prototype.gif"

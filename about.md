@@ -29,7 +29,7 @@ sitemap:
 
 ### プログラミング
 
-<span class="image right shadow"><img src="{{ "/images/hichain-prototype.gif" | absolute_url }}" alt="HIchain Prototype" /></span>
+<span class="image right shadow"><img src="{{ "/images/hichain-prototype.gif" | absolute_url }}" alt="HICHAIN Prototype" /></span>
 
 プログラミングでボードゲームを作ったり何かを効率化することが好きです。
 
