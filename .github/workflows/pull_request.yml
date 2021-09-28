@@ -1,0 +1,21 @@
+name: Pull Request Builder
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby-version: [3.x]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Ruby ${{ matrix.ruby-version }}
+      uses: actions/setup-ruby@v1
+      with:
+        node-version: ${{ matrix.ruby-version }}
+        bundler-cache: true
+    - run: bundle install
+    - run: bundle exec jekyll build
