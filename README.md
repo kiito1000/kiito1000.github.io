@@ -5,7 +5,7 @@ Portfolio Website
 ## Requirements
 
 - Ruby v3.0.0
-- bundler v2.2.16
+- bundler v2.2.x
 
 ## Usage
 
