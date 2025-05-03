@@ -2,6 +2,10 @@
 
 Portfolio Website
 
+### Currently the site redirects to https://www.resume.id/kiito
+
+---
+
 ## Requirements
 
 - Ruby v3.0.0
