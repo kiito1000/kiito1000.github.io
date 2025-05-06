@@ -112,7 +112,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.7.0)
-    webrick (1.7.0)
+    webrick (1.8.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -126,7 +126,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.27
